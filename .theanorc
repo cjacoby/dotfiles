@@ -1,0 +1,4 @@
+[global]
+#device=gpu
+floatX=float32
+exception_verbosity=high

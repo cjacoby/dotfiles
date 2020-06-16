@@ -29,3 +29,12 @@ Finally, to install your dotfiles onto a new system:
 For more information, check out the [wiki](http://github.com/justone/dotfiles/wiki).
 
 You can also run <tt>dfm --help</tt>.
+
+
+
+## Other setup
+[Global gitignore](http://egorsmirnov.me/2015/05/04/global-gitignore-file.html)
+```
+ln -s ~/src/dotfiles/.gitignore ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+```
